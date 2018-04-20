@@ -7,11 +7,10 @@
 
 
 
-
 #include <iostream>
 #include <vector>
 
-using namespace std;
+
 int main(){
 
 	std::vector<int> vectofInts;
@@ -19,11 +18,11 @@ int main(){
 		vectofInts.push_back(i+1);
 	}
 
-	vector<int>::iterator it=vectofInts.begin();
+	std::vector<int>::iterator it=vectofInts.begin();
 
 	while(it!=vectofInts.end()){
 
-		cout<<*it<<endl;
+		std::cout<<*it<<std::endl;
 		it++;
 	}
 
