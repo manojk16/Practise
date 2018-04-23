@@ -11,7 +11,7 @@ pair<int,string>pair2;
 
 pair1=make_pair(1,2);
 pair2=make_pair(1,"Manoj");
-pair3=make_pair(2,4);
+
 
 cout << pair1.first <<endl;
 cout << pair2.second <<endl;
