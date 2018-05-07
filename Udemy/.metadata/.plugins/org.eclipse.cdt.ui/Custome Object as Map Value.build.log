@@ -1,0 +1,21 @@
+23:31:01 **** Incremental Build of configuration Debug for project Custome Object as Map Value ****
+make all 
+Building file: ../src/custome_2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/custome_2.d" -MT"src/custome_2.o" -o "src/custome_2.o" "../src/custome_2.cpp"
+Finished building: ../src/custome_2.cpp
+ 
+Building target: Custome Object as Map Value
+Invoking: GCC C++ Linker
+g++  -o "Custome Object as Map Value"  ./src/Custome\ Object\ as\ Map\ Value.o ./src/custome_2.o   
+./src/custome_2.o:(.bss+0x0): multiple definition of `Person::count'
+makefile:45: recipe for target 'Custome Object as Map Value' failed
+./src/Custome Object as Map Value.o:(.bss+0x0): first defined here
+./src/custome_2.o: In function `operator delete(void*, void*)':
+/home/manoj/Udemy/Custome Object as Map Value/Debug/../src/custome_2.cpp:64: multiple definition of `main'
+./src/Custome Object as Map Value.o:/home/manoj/Udemy/Custome Object as Map Value/Debug/../src/Custome Object as Map Value.cpp:50: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [Custome Object as Map Value] Error 1
+
+23:31:01 Build Finished (took 510ms)
+

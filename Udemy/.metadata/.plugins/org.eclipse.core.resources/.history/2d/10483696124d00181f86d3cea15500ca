@@ -1,0 +1,36 @@
+//============================================================================
+// Name        : Custome.cpp
+// Author      : Manoj
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <map>
+#include <string>
+using namespace std;
+
+
+class Person{
+	string name;
+	int age;
+public:
+	Person(string name, int age):name(name),age(age){}
+	void print(){
+		cout << "Name -> "<<name <<" "<< "Age--->"<<age<<endl;
+	}
+};
+int main() {
+	//cout << "Custome Object as Map Value" << endl; // prints Custome Object as Map Value
+
+map<int, Person> people;
+people[0]=Person("mike",40);
+people[1]=Person("Janne",60);
+people[2]=Person("Annu",70);
+
+	for(map<int,Person>::iterator it=people.begin();it!=people.end();it++){
+		cout<<" \t"<<it->second;
+	}
+	return 0;
+}

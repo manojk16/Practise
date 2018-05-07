@@ -1,0 +1,15 @@
+20:25:06 **** Incremental Build of configuration Debug for project Overloading and Assignment Operator ****
+make all 
+Building file: ../src/Overloading and Assignment Operator.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Overloading and Assignment Operator.d" -MT"src/Overloading\ and\ Assignment\ Operator.d" -o "src/Overloading and Assignment Operator.o" "../src/Overloading and Assignment Operator.cpp"
+Finished building: ../src/Overloading and Assignment Operator.cpp
+ 
+Building target: Overloading and Assignment Operator
+Invoking: GCC C++ Linker
+g++  -o "Overloading and Assignment Operator"  ./src/Overloading\ and\ Assignment\ Operator.o   
+Finished building target: Overloading and Assignment Operator
+ 
+
+20:25:07 Build Finished (took 461ms)
+

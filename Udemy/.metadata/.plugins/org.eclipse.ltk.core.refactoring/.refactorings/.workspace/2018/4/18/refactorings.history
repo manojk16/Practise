@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Two Dimensional Project&apos; to &apos;Two Dimensional vector&apos;" description="Rename resource &apos;Two Dimensional Project&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Two Dimensional Project" name="Two Dimensional vector" stamp="1524989939431" updateReferences="true"/>
+</session>

@@ -1,0 +1,16 @@
+//============================================================================
+// Name        : ReadingFiles.cpp
+// Author      : Manoj
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+	cout << ""Reading Text Files !!"" << endl; // prints "Reading Text Files !!"
+	return 0;
+}

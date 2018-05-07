@@ -1,0 +1,15 @@
+//============================================================================
+// Name        : sets.cpp
+// Author      : Manoj
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "Welocme to Sets !!" << endl; // prints Welocme to Sets !!
+	return 0;
+}

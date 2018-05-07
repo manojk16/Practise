@@ -1,0 +1,31 @@
+//============================================================================
+// Name        : map.cpp
+// Author      : Manoj
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <map>
+using namespace std;
+
+int main() {
+	cout << "Welcome to Map" << endl; // prints Welcome to Map
+
+	map<string, int> ages;
+	ages["Raj"]=40;
+	ages["Abhay"]=30;
+	ages["Vicky"]=50;
+	ages["aanu"]=04;
+
+
+	cout<<"Age of Aanu:: "<< ages["aanu"]<<endl;
+
+	for(map<string, int>::iterator it=ages.begin();it!=ages.end();it++){
+		cout<<it->first<<" "<<it->second<<endl;
+	}
+
+
+	return 0;
+}

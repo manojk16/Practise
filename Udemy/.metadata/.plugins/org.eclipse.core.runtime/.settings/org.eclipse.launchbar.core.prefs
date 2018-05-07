@@ -1,0 +1,12 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Basic_Excep,org.eclipse.launchbar.core.descriptorType.default\:Standard_Exception,org.eclipse.launchbar.core.descriptorType.default\:Custome_Exception,org.eclipse.launchbar.core.descriptorType.default\:Catching SubClass Exception,org.eclipse.launchbar.core.descriptorType.default\:Writting text files,org.eclipse.launchbar.core.descriptorType.default\:ReadingFiles,org.eclipse.launchbar.core.descriptorType.default\:ParsingTextinFiles,org.eclipse.launchbar.core.descriptorType.default\:BinaryFile,org.eclipse.launchbar.core.descriptorType.default\:VectorandMemory,org.eclipse.launchbar.core.descriptorType.default\:vector,org.eclipse.launchbar.core.descriptorType.default\:Two Dimensional vector,org.eclipse.launchbar.core.descriptorType.default\:list,org.eclipse.launchbar.core.descriptorType.default\:map,org.eclipse.launchbar.core.descriptorType.default\:Custome Object as Map Value,org.eclipse.launchbar.core.descriptorType.default\:mutiMap,org.eclipse.launchbar.core.descriptorType.default\:sets,org.eclipse.launchbar.core.descriptorType.default\:Overloading and Assignment Operator,org.eclipse.launchbar.core.descriptorType.default\:OverloadingInsertionOperator
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Basic_Excep/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Basic_Excep/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:OverloadingInsertionOperator/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:OverloadingInsertionOperator/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Writting\ text\ files/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Writting\ text\ files/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:vector/activeLaunchMode=run

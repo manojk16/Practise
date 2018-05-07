@@ -1,0 +1,16 @@
+//============================================================================
+// Name        : map.cpp
+// Author      : Manoj
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <map>
+using namespace std;
+
+int main() {
+	cout << "Welcome to Map" << endl; // prints Welcome to Map
+	return 0;
+}

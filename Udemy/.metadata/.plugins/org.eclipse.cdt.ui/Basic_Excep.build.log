@@ -1,0 +1,17 @@
+01:23:59 **** Incremental Build of configuration Debug for project Basic_Excep ****
+make all 
+Building target: Basic_Excep
+Invoking: GCC C++ Linker
+g++  -o "Basic_Excep"  ./src/1_Exercise_Exception.o ./src/Basic_Excep.o   
+./src/Basic_Excep.o: In function `mightGoWrong()':
+/home/manoj/Udemy/Basic_Excep/Debug/../src/Basic_Excep.cpp:12: multiple definition of `mightGoWrong()'
+./src/1_Exercise_Exception.o:/home/manoj/Udemy/Basic_Excep/Debug/../src/1_Exercise_Exception.cpp:12: first defined here
+makefile:45: recipe for target 'Basic_Excep' failed
+./src/Basic_Excep.o: In function `main':
+/home/manoj/Udemy/Basic_Excep/Debug/../src/Basic_Excep.cpp:41: multiple definition of `main'
+./src/1_Exercise_Exception.o:/home/manoj/Udemy/Basic_Excep/Debug/../src/1_Exercise_Exception.cpp:33: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [Basic_Excep] Error 1
+
+01:24:00 Build Finished (took 361ms)
+

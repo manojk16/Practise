@@ -1,0 +1,44 @@
+//============================================================================
+// Name        : sets.cpp
+// Author      : Manoj
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+/*
+	sets only stores the uniques element and inorder
+	to finding the unique objects sets are very good
+
+
+*/
+
+
+#include <iostream>
+#include <set>
+using namespace std;
+
+int main() {
+	cout << "Welocme to Sets !!" << endl; // prints Welocme to Sets !!
+
+	set<int> numbers;
+	numbers.insert(30);
+	numbers.insert(10);
+	numbers.insert(20);
+	numbers.insert(40);
+
+	for(set<int>::iterator it=numbers.begin();it!=numbers.end();++it){
+		cout<<*it<<endl;
+	}
+	set<int>::iterator findit=numbers.find(30);
+	if(findit!=numbers.end()){
+		cout<<"Number found ::" << *findit <<endl;
+	}
+
+	//or
+	if(numbers.count(30)){
+		cout<< "Numbers Found "<<endl;
+	}
+
+
+	return 0;
+}

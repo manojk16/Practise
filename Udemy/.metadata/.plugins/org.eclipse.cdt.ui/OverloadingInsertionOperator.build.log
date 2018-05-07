@@ -1,0 +1,6 @@
+20:45:14 **** Incremental Build of configuration Debug for project OverloadingInsertionOperator ****
+make all 
+make: Nothing to be done for 'all'.
+
+20:45:14 Build Finished (took 363ms)
+

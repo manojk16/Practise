@@ -1,0 +1,30 @@
+21:24:16 **** Incremental Build of configuration Debug for project ConstructorAndMemory ****
+make all 
+Building file: ../src/ConstructorAndMemory.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ConstructorAndMemory.d" -MT"src/ConstructorAndMemory.o" -o "src/ConstructorAndMemory.o" "../src/ConstructorAndMemory.cpp"
+In file included from /usr/include/c++/5/cstdint:35:0,
+                 from ../src/ConstructorAndMemory.cpp:10:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+../src/ConstructorAndMemory.cpp: In constructor ‘Test::Test(int)’:
+../src/ConstructorAndMemory.cpp:25:29: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+   m_pbuffer = new int[size] { };
+                             ^
+../src/ConstructorAndMemory.cpp:27:18: error: invalid conversion from ‘int’ to ‘int*’ [-fpermissive]
+    m_pbuffer = 7 * i;
+                  ^
+../src/ConstructorAndMemory.cpp: In copy constructor ‘Test::Test(const Test&)’:
+../src/ConstructorAndMemory.cpp:33:29: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+   m_pbuffer = new int[size] { };
+                             ^
+../src/ConstructorAndMemory.cpp: In member function ‘Test& Test::operator=(const Test&)’:
+../src/ConstructorAndMemory.cpp:39:29: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+   m_pbuffer = new int[size] { };
+                             ^
+src/subdir.mk:18: recipe for target 'src/ConstructorAndMemory.o' failed
+make: *** [src/ConstructorAndMemory.o] Error 1
+
+21:24:16 Build Finished (took 411ms)
+

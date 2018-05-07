@@ -1,0 +1,15 @@
+01:54:00 **** Incremental Build of configuration Debug for project list ****
+make all 
+Building file: ../src/list.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/list.d" -MT"src/list.o" -o "src/list.o" "../src/list.cpp"
+Finished building: ../src/list.cpp
+ 
+Building target: list
+Invoking: GCC C++ Linker
+g++  -o "list"  ./src/list.o   
+Finished building target: list
+ 
+
+01:54:00 Build Finished (took 462ms)
+

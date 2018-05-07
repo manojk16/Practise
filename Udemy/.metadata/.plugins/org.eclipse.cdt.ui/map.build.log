@@ -1,0 +1,15 @@
+02:26:07 **** Incremental Build of configuration Debug for project map ****
+make all 
+Building file: ../src/map.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/map.d" -MT"src/map.o" -o "src/map.o" "../src/map.cpp"
+Finished building: ../src/map.cpp
+ 
+Building target: map
+Invoking: GCC C++ Linker
+g++  -o "map"  ./src/map.o   
+Finished building target: map
+ 
+
+02:26:08 Build Finished (took 564ms)
+

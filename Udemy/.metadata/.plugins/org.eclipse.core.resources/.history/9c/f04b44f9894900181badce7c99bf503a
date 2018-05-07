@@ -1,0 +1,28 @@
+//============================================================================
+// Name        : Writting.cpp
+// Author      : Manoj
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+
+int main() {
+	cout << "Writting Text Files !!" << endl; // prints "Writting Text Files !!"
+
+	ofstream outfile;
+	string outFileName="result.txt";
+	outfile.open("/home/manoj/result.txt");
+	if(outfile.is_open()){
+		cout<<"Ok"<<endl;
+
+	}else{
+		cout<<"File can not get opened "<<endl;
+	}
+
+	return 0;
+}

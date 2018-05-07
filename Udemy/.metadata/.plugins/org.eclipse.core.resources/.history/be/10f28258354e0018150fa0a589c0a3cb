@@ -1,0 +1,15 @@
+//============================================================================
+// Name        : mutiMap.cpp
+// Author      : Manoj
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "Welocme to Multimap   !!!!" << endl; // prints Welocme to Multimap   !!!!
+	return 0;
+}

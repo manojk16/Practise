@@ -1,0 +1,16 @@
+//============================================================================
+// Name        : Custome.cpp
+// Author      : Manoj
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <map>
+using namespace std;
+
+int main() {
+	cout << "Custome Object as Map Value" << endl; // prints Custome Object as Map Value
+	return 0;
+}

@@ -1,0 +1,25 @@
+//============================================================================
+// Name        : mutiMap.cpp
+// Author      : Manoj
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+/*
+multimap store the value with Duplicat Key
+*/
+
+#include <iostream>
+#include <map>
+using namespace std;
+
+int main() {
+	cout << "Welocme to Multimap   !!!!" << endl; // prints Welocme to Multimap   !!!!
+
+	multimap<int, string> lookup;
+	lookup.insert(make_pair(30,"Mike"));
+	lookup.insert(make_pair(20,"Mike"));
+	lookup.insert(make_pair(30,"Mike"));
+	lookup.insert(make_pair(10,"Mike"));
+	return 0;
+}

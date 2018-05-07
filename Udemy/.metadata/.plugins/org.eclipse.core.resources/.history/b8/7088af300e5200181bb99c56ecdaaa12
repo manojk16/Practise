@@ -1,0 +1,41 @@
+//============================================================================
+// Name        : ConstructorAndMemory.cpp
+// Author      : Manoj
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Test{
+	int id;
+	string name;
+public:
+	Test():id(0),name(""){}
+	Test(int id, string name):id(id),name(name){
+		cout<<"Parameterized Constructor"<<endl;
+
+	}
+	Test(const Test& other){
+		cout<<"Copy Constructor"<<endl;
+	}
+	Test & operator=(const Test &other){
+		cout << "Assignment Operator"<<endl;
+		return *this;
+	}
+	~Test(){
+		cout << "Destructor Called"<<endl;
+	}
+	friend ostream & operator<<(ostream &out, const Test &other);
+};
+
+ostream &operator<<(ostream & out, const Test & other){
+	return out;
+}
+
+int main() {
+	cout << "Welocme to Overloading" << endl; // prints Welocme to Overloading
+	return 0;
+}

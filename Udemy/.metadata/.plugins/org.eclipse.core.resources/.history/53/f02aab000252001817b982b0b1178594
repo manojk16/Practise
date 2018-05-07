@@ -1,0 +1,32 @@
+//============================================================================
+// Name        : Overloading.cpp
+// Author      : Manoj
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Test{
+	int id;
+	string name;
+public:
+	Test():id(0),name(""){}
+	Test(int id, string name):id(id), name(name){}
+	void print(){
+		cout<<"id-->"<<id<<", "<<"Name-->"<<name<<endl;
+	}
+};
+
+int main() {
+	cout << "Welocme to Overloading" << endl; // prints Welocme to Overloading
+	Test test1(10,"Mike");
+	test1.print();
+	Test test2(20,"Bob");
+	test2=test1; //sallow Copy
+	test2.print();
+
+	return 0;
+}
