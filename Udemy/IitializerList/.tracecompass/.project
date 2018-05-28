@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>RemoteSystemsTempFiles</name>
+	<name>.tracecompass-InitializerList</name>
 	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
 	</buildSpec>
 	<natures>
-		<nature>org.eclipse.rse.ui.remoteSystemsTempNature</nature>
+		<nature>org.eclipse.linuxtools.tmf.project.nature</nature>
 	</natures>
 </projectDescription>
