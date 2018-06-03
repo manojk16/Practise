@@ -6,15 +6,16 @@
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
-
+#include <iostream>
 #include "Complex.h"
-
+using namespace std;
 using namespace caveofprogramming;
 int main() {
 	cout << "Welocme to Complex Class Number " << endl; // prints Welocme to Overloading;
-	Complex C1;
-	Complex C2(2,3);
-	Complex C3=C2;
-	Complex C2=C3;
-	return 0;
+	Complex c1(2,3);
+	Complex c2=c1;
+	Complex c3=c2;
+
+	cout << c2 << c3 << endl;
+
 }
