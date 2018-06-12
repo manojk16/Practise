@@ -43,7 +43,7 @@ int main() {
 
 	MatchTest pred;
 	string value="LION";
-	cout<<pred(value)<<endl;// here pred(value) is lookos like a function call but it is not the  and it is overloading of the () operator with the help of Matchtest Object
+	cout<<pred(value)<<endl;// here pred(value) is looks like a function call but it is not the  and it is overloading of the () operator with the help of Matchtest Object
 	//check("LION",MatchTest());
 	MatchTest m;
 	check("LIONd", m);
