@@ -1,0 +1,13 @@
+The Pthread API 
+Pthreads API can be groped in to four :
+
+
+1. Threads Managment :With in this gruop APT that works directly on the threads like creating, deattching Joing they aslo have funcion to set the thrads 
+attributes like Joinable, Scheduling. 
+2. Mutexes:Rotines deals with the synchronization is called mutexes, Mutex function provies the funcyion for creating, destroying, locking and unlocking Mutexes 
+
+ 
+3. Conditional Varaible: Rotines that are used to set the communication between Threads That hares mutex and based on programmer specification This group includes function to 
+create, destroy, wait and signal based upon  
+4. Synchronization: Routines that manages read/write locks/basrrier
+
