@@ -1,0 +1,3 @@
+/home/manoj/Manoj_github/Practise/Code_HFirst/Ch02/build/CMakeFiles/edit_cache.dir
+/home/manoj/Manoj_github/Practise/Code_HFirst/Ch02/build/CMakeFiles/rebuild_cache.dir
+/home/manoj/Manoj_github/Practise/Code_HFirst/Ch02/build/CMakeFiles/observer.dir

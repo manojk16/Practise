@@ -1,0 +1,16 @@
+/*
+ * Chapter2.cpp
+ *
+ *  Created on: 11-Jun-2018
+ *      Author: manoj
+ */
+
+/*Internet Based Weather Monitoring System
+ *
+ *The Observer : Defnies a one to Many dependency between Objects so That
+ *The When One Objects changes its state All of its dependent are notified and updated automatically
+ *
+
+*/
+
+
