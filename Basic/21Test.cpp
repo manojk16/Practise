@@ -11,19 +11,20 @@
 using namespace std;
 class A
 {
-	virtual void fun()
-	{}
+	virtual void fun(){}
+	virtual void fun2(){}
+
+	
 
 };
 class B: public A
 {
-	virtual void fun4()
-	{}
+	virtual void fun4(){}
 
 };
 int  main()
 {
-	A obj;
+	A *ptr=new B();
 	cout<<sizeof(A)<<endl;
 	cout<<sizeof(B)<<endl;
 }
