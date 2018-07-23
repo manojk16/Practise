@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/manoj/Manoj_github/Practise/Code_HFirst/ch04_Factory/simple_factory/include/CheesPizza.h
+Pizza.h
+/home/manoj/Manoj_github/Practise/Code_HFirst/ch04_Factory/simple_factory/include/Pizza.h
+
+/home/manoj/Manoj_github/Practise/Code_HFirst/ch04_Factory/simple_factory/include/Pizza.h
+iostream
+-
+
+/home/manoj/Manoj_github/Practise/Code_HFirst/ch04_Factory/simple_factory/include/SimplePizzafactory.h
+Pizza.h
+/home/manoj/Manoj_github/Practise/Code_HFirst/ch04_Factory/simple_factory/include/Pizza.h
+CheesPizza.h
+/home/manoj/Manoj_github/Practise/Code_HFirst/ch04_Factory/simple_factory/include/CheesPizza.h
+VeggiePizza.h
+/home/manoj/Manoj_github/Practise/Code_HFirst/ch04_Factory/simple_factory/include/VeggiePizza.h
+string
+-
+
+/home/manoj/Manoj_github/Practise/Code_HFirst/ch04_Factory/simple_factory/include/VeggiePizza.h
+Pizza.h
+/home/manoj/Manoj_github/Practise/Code_HFirst/ch04_Factory/simple_factory/include/Pizza.h
+
+/home/manoj/Manoj_github/Practise/Code_HFirst/ch04_Factory/simple_factory/src/main.cpp
+../include/SimplePizzafactory.h
+/home/manoj/Manoj_github/Practise/Code_HFirst/ch04_Factory/simple_factory/include/SimplePizzafactory.h
+

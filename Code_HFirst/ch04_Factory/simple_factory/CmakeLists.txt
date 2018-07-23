@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.6.8)
+project(factory)
+include_directory(include)
+file(GLOB SOURCES "src/main.cpp")
+add_executable(factory_pattern ${SOURCES})

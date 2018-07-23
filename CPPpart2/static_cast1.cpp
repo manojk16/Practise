@@ -1,0 +1,96 @@
+#include <iostream>
+#include <typeinfo>
+using namespace std;
+class Emp
+{
+public:
+	int hour;
+	int rate;
+	int sales;
+public:
+	Emp(int h, int r)
+	{
+		hour = h;
+		rate = r;
+	}
+	 float getsal()
+	{
+		cout << "BASE class get Sal called" << endl;
+		return 0;
+	}
+};
+class SoftwareEng :public Emp
+{
+public:
+	SoftwareEng(int h, int r) :Emp(h, r)
+	{
+	}
+	float getsal()
+	{
+		cout << "Software Class get called" << endl;
+		return (hour*rate);
+
+	}
+};
+class Salesperson :public Emp
+{
+public:
+	Salesperson(int h, int r, int s) :Emp(h, r)
+	{
+		sales = s;
+	}
+	float getsal()
+	{
+		cout << " Sales Person called" << endl;
+		return (hour*rate + 0.5*sales);
+	}
+};
+void CalculateSal(Emp* dept[])
+{
+	float total = 0;
+	float f1;
+	for (int i = 0; i <= 3; i++)
+	{
+
+		if (typeid(SoftwareEng) == typeid(*dept[i]))
+		{
+			SoftwareEng* ptr = static_cast<SoftwareEng*>(dept[i]);
+			float f1 = ptr->getsal();
+			total = f1 + total;
+
+		}
+
+	}
+	cout << total << endl;
+}
+
+int main()
+{
+	Emp* dept[] = { new Salesperson(200,500,200000),new SoftwareEng(250,700),new Salesperson(200,450,50000),new SoftwareEng(200,800) };
+	CalculateSal(dept);
+	// Now I want to find out salary of Software Engineers only 
+	//Method 1 for loop
+	// or Total Salary of Software Engineers 
+	for (int i = 0; i <= 3; i++)
+	{		// Here we have to apply static cast
+	  //if(typeid(SoftwareEng)==typeid(*dept[i]))
+	   if (i == 1 || i == 3) // bad program
+	// so use operator typeid as above which will check identity at run time
+	{// typeid can't be overloaded
+
+	SoftwareEng* ptr = static_cast<SoftwareEng*>(dept[i]);
+	//Here Derivrd class Pointer is pointing to base class
+	//Static casting will not identify object runtime so we have to do saome mechnism
+	//for that we have a key word typeid it is an operator
+	// if we don't want to use typeid then use as follows
+	//if(i==) as above
+
+	 	cout << ptr->getsal() << endl;
+	}
+	}*/
+	getchar();
+
+
+	return 0;
+}
+
