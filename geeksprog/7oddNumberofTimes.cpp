@@ -10,7 +10,7 @@
 
 int OddNumber(int arr[],int size){
 	int oddcount =0;
-	int index=-1;
+	
 	for(int i=0;i<size;i++){
 		int count =0;
 		for(int j=0;j<size;j++){

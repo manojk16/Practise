@@ -9,7 +9,7 @@ using namespace std;
 int largest_N(int arr[],int size){
 	int max=arr[0];
 	for(int i=0;i<size;i++){
-		cout<<max<<endl;
+		
 		if(max<arr[i]){
 			max=arr[i];
 		}
